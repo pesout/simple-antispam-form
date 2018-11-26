@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+
+<!--
+************************
+Created by Stepan Pesout
+*****www.pesout.eu******
+*****@stepanpesout******
+************************
+-->
+
+<html>
+<head>
+	<meta http-equiv="Content-Language" content="en">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" href="styles.css">
+	<title>Simple JS Antispam Form</title>
+	<link rel="author" href="http://github.com/stepanpesout">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+	<form name="resultform" onsubmit="return false">
+		How much is <span id="first"></span> plus <span id="second"></span>?
+		<input type="number" name="result">
+		<button onclick="resultCheck(result.value)">Submit</button>
+	</form>
+
+	<script src="antispam.js"></script>
+</body>
+</html>
